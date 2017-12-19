@@ -6,3 +6,7 @@ Run the following command in a Azure PowerShell console after entering
 the LocalFilePath to your VHD.
 #>
 Add-AzureRmVhd -Destination "https://atest8637.blob.core.windows.net/uploads/tempImage.vhd?sv=2015-04-05&sr=b&spr=https&se=2017-12-16T06:48:34Z&sp=rcw&sig=xZ8ioOqp77aowuYojPqfDf6W3Pdth%2BVPdV4VNJQlC58%3D" -LocalFilePath "<Enter VHD location here>"
+
+
+
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/classic/create-upload-vhd?toc=%2fazure%2fvirtual-machines%2flinux%2fclassic%2ftoc.json
