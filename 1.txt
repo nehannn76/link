@@ -10,3 +10,8 @@ Add-AzureRmVhd -Destination "https://atest8637.blob.core.windows.net/uploads/tem
 
 
 https://docs.microsoft.com/en-us/azure/virtual-machines/linux/classic/create-upload-vhd?toc=%2fazure%2fvirtual-machines%2flinux%2fclassic%2ftoc.json
+
+
+
+Storage key : VwmmT/pWFe6ExOauJRNslPDXdIOWGU5xIdCtEW2nIiaIrQgr4DHQsaA0tCZQsn/Zy1ajCE29IEnMoE5h56RPJQ==
+az storage blob upload -c vhds -f ~/sample.vhd -n sample.vhd --account-name mystorageaccount --account-key ${STORAGE_KEY}
